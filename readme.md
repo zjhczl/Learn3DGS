@@ -24,3 +24,8 @@ pip install "numpy<2" --no-cache-dir
 python train.py -s <path to COLMAP or NeRF Synthetic dataset>
 python train.py -s D:\Share\colmap\workspace\dense\0
 ```
+
+# Windows
+.\viewers\bin\SIBR_gaussianViewer_app.exe -m <训练输出目录>
+# Linux/macOS
+./viewers/bin/SIBR_gaussianViewer_app -m <训练输出目录>
